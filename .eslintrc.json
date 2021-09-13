@@ -6,7 +6,7 @@
         "jest": true
     },
     "extends": [
-        "airbnb", "prettier"
+        "airbnb"
     ],
     /* "parserOptions": {
         "ecmaFeatures": {
@@ -17,19 +17,29 @@
     }, */
     "plugins": [
         "react",
-        "prettier",
+        
         // "jsx-a11y",
         "import"
 
     ],
     "rules": {
-        "no-unused-vars":"warn",
-        "react/prop-types": "off",
+        "no-unused-vars":0,
+        "react/prop-types": 0,
         "max-len": 0,
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-filename-extension": 0,
         // "parser": "@babel/eslint-parser",
         "no-shadow": "off",
-        "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
+        "quotes": 0,
+        "semi":0,
+        "indent": 0,
+        "no-tabs": 0,
+        "react/jsx-indent": 0,
+        "linebreak-style": 0,
+        "react/jsx-indent-props": 0,
+        "import/no-extraneous-dependencies": 0,
+        "jsx-one-expression-per-line":0,
+        "react/jsx-one-expression-per-line":0 
+
         
     }
 }

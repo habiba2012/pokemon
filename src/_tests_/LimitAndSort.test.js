@@ -6,7 +6,12 @@ import { provider } from 'react-redux';
 import { render, fireEvent, cleanup } from 'react-testing-library'
 import "jest-dom/extend-expect";
 
+afterEach(cleanup);
 
+const initialState = {
+    limit: 0,
+    offset
+}
 // eslint-disable-next-line no-unused-vars
 // import LimitAndSort from "../components/LimitAndSort";
 

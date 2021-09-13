@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable */
 /* eslint-disable jsx-a11y/no-onchange */
+/*eslint linebreak-style: ["error", "windows"]*/
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { allPokemon, sorting } from "../store/actions/pokemonAction";

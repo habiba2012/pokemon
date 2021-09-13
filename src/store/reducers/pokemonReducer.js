@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as Types from "../constants/types";
 
 let init = {
