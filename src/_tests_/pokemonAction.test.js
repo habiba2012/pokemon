@@ -13,12 +13,14 @@ describe('authenticate action', () => {
 
     it('Action for all pokemon fetch', () =>
         store.dispatch(allPokemon(
-            { offset: 0, limit: 0 },
-            mockServiceCreator(REQUIRED_BODY),
+            {
+                offset: 0,
+                limit: 0
+            }
         ))
     );
-    it('+++ actionCreator subtractInputs', () => {
+    it('actionCreator search', () => {
         const search = searchTerm()
-        expect(search).toEqual({ type: "allPokemon", output: -50 })
+        expect(search).toEqual({ type: "allPokemon", output: undefined })
     });
 });

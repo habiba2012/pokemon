@@ -12,7 +12,9 @@ describe('<LimitAndSort /> with no props', () => {
 
     })
 
-
+    /*  it('should have two select option', () => {
+         expect(wrapper.find('select[name="sort"]').length).toEqual(2);
+     }); */
 
 
 
