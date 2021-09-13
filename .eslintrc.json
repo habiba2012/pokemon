@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        // "enzyme": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb", "prettier"
+    ],
+    /* "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    }, */
+    "plugins": [
+        "react",
+        "prettier",
+        // "jsx-a11y",
+        "import"
+
+    ],
+    "rules": {
+        "no-unused-vars":"warn",
+        "react/prop-types": "off",
+        "max-len": 0,
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        // "parser": "@babel/eslint-parser",
+        "no-shadow": "off",
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
+        
+    }
+}
