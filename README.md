@@ -1,6 +1,6 @@
 # Pokemon App
 
-This is a demo app using third party api called pokemon. It lives at https://pokemon-app-mhs.netlify.app
+This is a demo app using third party api called pokemon. It lives at https://pokemon-code-test.netlify.app/
 
 Technology:
 • HTML
@@ -10,9 +10,7 @@ Technology:
 
 ## Get started
 
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
 
-Just hit...
 
 ```bash
 npm install
