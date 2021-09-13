@@ -5,3 +5,4 @@ Enzyme.configure({
     adapter: new Adapter(),
     disableLifecycleMethods: true
 })
+

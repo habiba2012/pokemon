@@ -4,19 +4,19 @@ import DetailsPokemon from "./pages/DetailsPokemon";
 import Home from "./pages/Home";
 
 const App = () => (
-  <Router>
-    <div>
+    <Router>
+        <div>
 
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/details/:id">
-          <DetailsPokemon />
-        </Route>
-      </Switch>
-    </div>
-  </Router>
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route exact path="/details/:id">
+                    <DetailsPokemon />
+                </Route>
+            </Switch>
+        </div>
+    </Router>
 );
 
 export default App;
