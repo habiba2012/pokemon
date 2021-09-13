@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Navigation start */
+.nav {
+  background-color: rgb(47, 85, 107);
+  color:white;
+  padding: 20px;
+}
+/* Navigation end */
+
+/* Pokemon start */
+.pokemons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+}
+
+.pokemon__card {
+  background-color: #efefef;
+  margin: 15px 15px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+}
+
+.pokemon__card-img {
+  width: 150px;
+  height: 200px;
+}
+.pokemon__card-hw {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #7492b7;
+  padding: 20px;
+  border-bottom: 1px solid #efefef;
+}
+.pokemon__card-abilities {
+  padding: 15px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.pokemon__card-abilities {
+  background-color: darkcyan;
+  color: #efefef;
+}
+
+.pokemon__card-name {
+  background-color: #05b7f0;
+  padding: 15px 0px;
+}
+
+.pokemon__card-abilities-layout {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 200px;
+  text-align: justify;
+  gap: 20px;
+}
+
+.pokemon__back-btn {
+  
+  text-align: center;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(-50deg, #61f7e3 0, #1bab52 90%);
+  margin-bottom: 20px;
+  box-shadow: 1px 4px 14px 2px rgba(181, 179, 190, 0.2);
+    
+}
+/* Pokemon end */
+
+/* Pagination start */
+
+.pagination__btn {
+  border: none;
+  background-color: burlywood;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  margin: 20px 0 10px 0;
+  justify-content: space-between;
+}
+/* Pagination end */
+
+/* Limit and Sort start */
+.limitandsort {
+  display: flex;
+  justify-content: space-between;
+}
+.limitandsort__select {
+  background-color: burlywood;
+  outline: 0;
+  padding: 3px 20px;
+  border-radius: 5px;
+}
+.limitandsort__perpage {
+  margin: 10px 10px 20px 0;
+}
+/* Limit and Sort end */
+
+/* Auto Suggestions start */
+
+.searchPokemon__input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 40px;
+  outline: 0;
+}
+
+#react-autowhatever-1 {
+  top: 85px;
+  margin: auto;
+}
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 240px;
+  height: 30px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+/* Auto Suggestions end */
+
+/* ============================= */
